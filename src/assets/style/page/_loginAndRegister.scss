@@ -1,0 +1,47 @@
+.authem_form {
+    ::placeholder{
+        color: var(--pinktext);
+}
+  background-color: var(--normaltext);
+  padding: 28px;
+  * {
+    background-color: var(--normaltext);
+  }
+  margin: 67px auto 190px;
+  h2 {
+    padding-bottom: 60px;
+  }
+  form {
+    padding: 20px 0;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  
+    div {
+      display: flex;
+      flex-direction: column;
+        label {
+          padding: 12px 0;
+        }
+        input {
+            padding: 12px 0 ;
+            border: none;
+            border-bottom: 1px var(--bordercolor) solid;
+            margin-bottom: 30px;
+        }
+        
+        
+    }
+    button{
+        color: var(--pinktext);
+        background-color: var(--normaltext);
+        border: none;
+    }
+    a {
+        padding: 12px   ;
+        color:var(--backgroundcolor)
+    }
+  }
+}
